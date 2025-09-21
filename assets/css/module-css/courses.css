@@ -1857,7 +1857,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -1924,10 +1924,9 @@
 
 .course-details__info-list-title {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 30px;
     margin-bottom: 17px;
-    margin-top: 20px;
 }
 
 .course-details__info-list-1 {
@@ -1948,13 +1947,18 @@
     margin-top: 16px;
 }
 
-.course-details__info-list-1 li>p {
+.course-details__info-list-1 li>a{
     position: relative;
     display: flex;
     align-items: center;
     gap: 12px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
+    color: var(--fistudy-black);
+}
+
+.course-details__info-list-1 li>a:hover {
+    color: var(--fistudy-base);
 }
 
 .course-details__info-list-1 li>p>i {
@@ -2285,7 +2289,7 @@
 }
 
 .faq-one-accrodion .accrodion-title__count::before {
-    content: "Module "counter(count);
+    content: "Topshiriq-"counter(count);
     font-size: 18px;
     font-weight: 600;
     line-height: 28px;
@@ -2417,10 +2421,7 @@
 
 .accrodion-content__points li {
     position: relative;
-    display: flex;
     border-bottom: 1px dashed var(--fistudy-bdr-color);
-    align-items: center;
-    justify-content: space-between;
     padding-bottom: 23px;
 }
 
@@ -2433,21 +2434,9 @@
     padding-bottom: 0;
 }
 
-.accrodion-content__points li:nth-child(1) .accrodion-content__points-text,
-.accrodion-content__points li:nth-child(2) .accrodion-content__points-text {
-    color: var(--fistudy-black);
-}
-
 .accrodion-content__points-text {
     position: relative;
-    display: flex;
-    align-items: center;
     gap: 10px;
-}
-
-.accrodion-content__points li:nth-child(1).accrodion-content__points-text>span,
-.accrodion-content__points li:nth-child(2) .accrodion-content__points-text>span {
-    color: var(--fistudy-black);
 }
 
 .accrodion-content__points-btn {
