@@ -71,7 +71,7 @@
 .site-footer__top {
     position: relative;
     display: block;
-    padding: 78px 0 120px;
+    padding: 78px 0 20px;
 }
 
 .site-footer__top-inner {
@@ -298,7 +298,6 @@
 .site-footer__newsletter-box {
     position: relative;
     display: block;
-    margin-top: 40px;
 }
 
 .site-footer__newsletter-form {

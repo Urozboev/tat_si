@@ -179,11 +179,6 @@
     color: #FFC224;
 }
 
-.courses-one__ratting li:nth-child(4) span,
-.courses-one__ratting li:nth-child(5) span {
-    color: var(--fistudy-gray);
-}
-
 .courses-one__ratting-text {
     font-size: 16px;
     line-height: 26px;
@@ -837,7 +832,6 @@
     display: block;
     background: linear-gradient(180deg, #FFFFFF 0%, #F6F8FF 18%, #F6F8FF 100%);
     padding: 120px 0 120px;
-    margin-bottom: 100px;
     z-index: 1;
 }
 
@@ -1450,11 +1444,6 @@
     display: inline-block;
     font-size: 14px;
     color: #FFC224;
-}
-
-.course-details__ratting>li:nth-child(4) span,
-.course-details__ratting>li:nth-child(5) span {
-    color: #6B778B;
 }
 
 .course-details__main-tab-box {

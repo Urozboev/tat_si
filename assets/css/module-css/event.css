@@ -179,9 +179,14 @@
     z-index: 1;
 }
 
-.event-details__top-img img {
+.event-details__top-img img,
+.event-details__top-img iframe {
     width: 100%;
     border-radius: 20px;
+}
+
+.event-details__top-img iframe {
+    aspect-ratio: 16/9;
 }
 
 .event-details__content-box {
