@@ -1757,7 +1757,7 @@
 .course-details__video-link {
     position: relative;
     display: block;
-    padding: 88px 0 88px;
+    padding: 100px 0;
     text-align: center;
     z-index: 1;
 }
